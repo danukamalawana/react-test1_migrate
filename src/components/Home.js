@@ -9,25 +9,19 @@ class Home extends Component {
     }
 
     componentDidMount() {
-        // setTimeout(()=>{
-        //     alert("Component is mounted!")
-        //
-        // },2000)
-    }
-
-    buttonClick() {
-        // alert("Home button is clicked")
-        // navigateTo("/header");
 
     }
+
 
     render() {
         return (
 
             <div>
-                Hello World Home
-                <button onClick={this.buttonClick}>Click </button>
-                <Link to="/header">About</Link>
+                <Link to="/cart">Cart</Link>
+
+
+
+
 
             </div>
         )
